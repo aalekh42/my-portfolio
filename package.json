@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"next dev\" \"start-slicemachine\"",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "slicemachine": "start-slicemachine"
+    "lint": "next lint"
   },
   "dependencies": {
     "@prismicio/client": "^7.17.3",
@@ -23,6 +22,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@slicemachine/adapter-next": "^0.3.78",
+    "concurrently": "^9.1.2",
     "eslint": "^9",
     "eslint-config-next": "15.1.5",
     "slice-machine-ui": "^2.16.1"
