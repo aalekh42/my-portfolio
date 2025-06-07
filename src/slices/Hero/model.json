@@ -1,0 +1,98 @@
+{
+  "id": "hero",
+  "type": "SharedSlice",
+  "name": "Hero",
+  "description": "Hero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "card_role": {
+          "type": "Text",
+          "config": {
+            "label": "Card_Role",
+            "placeholder": ""
+          }
+        },
+        "card_name": {
+          "type": "Text",
+          "config": {
+            "label": "Card_Name",
+            "placeholder": ""
+          }
+        },
+        "card_title": {
+          "type": "Text",
+          "config": {
+            "label": "Card_Title",
+            "placeholder": ""
+          }
+        },
+        "card_email": {
+          "type": "Text",
+          "config": {
+            "label": "Card_Email",
+            "placeholder": ""
+          }
+        },
+        "card_location": {
+          "type": "Text",
+          "config": {
+            "label": "Card_location",
+            "placeholder": ""
+          }
+        },
+        "card_availability": {
+          "type": "Text",
+          "config": {
+            "label": "Card_Availability",
+            "placeholder": ""
+          }
+        },
+        "card_website": {
+          "type": "Text",
+          "config": {
+            "label": "Card_website",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": "Hero section title"
+          }
+        },
+        "name": {
+          "type": "Text",
+          "config": {
+            "label": "Name",
+            "placeholder": ""
+          }
+        },
+        "subtitle": {
+          "type": "Text",
+          "config": {
+            "label": "Subtitle",
+            "placeholder": "Role name "
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl,preformatted"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

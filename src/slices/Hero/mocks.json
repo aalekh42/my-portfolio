@@ -1,0 +1,70 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"card_role": {
+				"__TYPE__": "FieldContent",
+				"value": "age",
+				"type": "Text"
+			},
+			"card_name": {
+				"__TYPE__": "FieldContent",
+				"value": "building",
+				"type": "Text"
+			},
+			"card_title": {
+				"__TYPE__": "FieldContent",
+				"value": "port",
+				"type": "Text"
+			},
+			"card_email": {
+				"__TYPE__": "FieldContent",
+				"value": "pet",
+				"type": "Text"
+			},
+			"card_location": {
+				"__TYPE__": "FieldContent",
+				"value": "grow",
+				"type": "Text"
+			},
+			"card_availability": {
+				"__TYPE__": "FieldContent",
+				"value": "broad",
+				"type": "Text"
+			},
+			"card_website": {
+				"__TYPE__": "FieldContent",
+				"value": "provide",
+				"type": "Text"
+			},
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "tape",
+				"type": "Text"
+			},
+			"name": {
+				"__TYPE__": "FieldContent",
+				"value": "brief",
+				"type": "Text"
+			},
+			"subtitle": {
+				"__TYPE__": "FieldContent",
+				"value": "scientist",
+				"type": "Text"
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Deserunt officia voluptate id nostrud mollit voluptate. Tempor do aliqua aliquip qui. Aliquip mollit pariatur occaecat proident et occaecat."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
